@@ -1,6 +1,8 @@
 # MoonWatch
 Mac OS menu/status bar app that displays the phase of the moon.
 
+![example](https://raw.githubusercontent.com/WBrandes/MoonWatch/main/example.png "example")
+
 </br>
 
 ### Installation
