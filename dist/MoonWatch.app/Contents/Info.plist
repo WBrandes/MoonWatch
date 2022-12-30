@@ -85,7 +85,7 @@
 		<key>PythonExecutable</key>
 		<string>/Library/Frameworks/Python.framework/Versions/3.9/bin/python3</string>
 		<key>PythonLongVersion</key>
-		<string>3.9.0 (v3.9.0:9cf6752276, Oct  5 2020, 11:29:23) 
+		<string>3.9.2 (v3.9.2:1a79785e3e, Feb 19 2021, 09:06:10) 
 [Clang 6.0 (clang-600.0.57)]</string>
 		<key>PythonShortVersion</key>
 		<string>3.9</string>
@@ -96,7 +96,7 @@
 			<key>template</key>
 			<string>app</string>
 			<key>version</key>
-			<string>0.27</string>
+			<string>0.28.5</string>
 		</dict>
 	</dict>
 </dict>

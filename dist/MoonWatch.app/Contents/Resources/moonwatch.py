@@ -20,10 +20,10 @@ from datetime import datetime
 class MoonWatch(object):
     def __init__(self):
         self.app = rumps.App("MoonWatch", "🌝")
-        self.app.menu["moon_phase"] = rumps.MenuItem(title="Moon is Happy", callback=None)
+        self.app.menu["moon_phase"] = rumps.MenuItem(title="Moon is Happy", callback=self.check_moon)
         self.phases = [("🌕", "Full Moon"), ("🌖", "Waning Gibbous"), ("🌗", "Last Quarter"), ("🌘", "Waning Crescent"),  ("🌑", "New Moon"), ("🌒", "Waxing Crescent"), ("🌓", "First Quarter"), ("🌔", "Waxing Gibbous")]
         self.full_moon_reference = datetime(2021, 7, 24, 3, 37)
-        self.timer = rumps.Timer(self.check_moon, 43200)
+        self.timer = rumps.Timer(self.check_moon, 14400)
 
     def check_moon(self, sender):
         current_date = datetime.utcnow()

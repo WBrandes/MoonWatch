@@ -28,9 +28,9 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.9
-srcdir=		/Users/sysadmin/build/v3.9.0
-VPATH=		/Users/sysadmin/build/v3.9.0
-abs_srcdir=	/Users/sysadmin/build/v3.9.0
+srcdir=		/Users/sysadmin/build/v3.9.2
+VPATH=		/Users/sysadmin/build/v3.9.2
+abs_srcdir=	/Users/sysadmin/build/v3.9.2
 abs_builddir=	/private/tmp/_py/_bld/python
 
 
@@ -73,7 +73,7 @@ INSTALL_DATA=	${INSTALL} -m 644
 # rather than figuring out exactly which, we always give them executable mode.
 INSTALL_SHARED= ${INSTALL} -m 755
 
-MKDIR_P=	/Users/sysadmin/build/v3.9.0/install-sh -c -d
+MKDIR_P=	/Users/sysadmin/build/v3.9.2/install-sh -c -d
 
 MAKESETUP=      $(srcdir)/Modules/makesetup
 
@@ -1125,6 +1125,7 @@ PYTHON_HEADERS= \
 		$(srcdir)/Include/cpython/dictobject.h \
 		$(srcdir)/Include/cpython/fileobject.h \
 		$(srcdir)/Include/cpython/fileutils.h \
+		$(srcdir)/Include/cpython/frameobject.h \
 		$(srcdir)/Include/cpython/import.h \
 		$(srcdir)/Include/cpython/initconfig.h \
 		$(srcdir)/Include/cpython/interpreteridobject.h \
