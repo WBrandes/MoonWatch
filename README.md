@@ -17,8 +17,7 @@ To install, simply download the repo and then run the `MoonWatch` app in the `di
 * If you click on it, you can see the phase in text, and a dropdown option displays to Quit the app.
 * To make the app run on startup, open `System Preferences` and navigate to the `Users & Groups` section. Then select `Login Items` at the top of the window, and hit the `+` icon to add the app.
 * Alt-click on the icon to drag it around your menu bar.
-* The app updates every 4 hours, and depends on your system's internal time. To force it to update, quit and re-open the app.
-
+* The app updates every 4 hours, and depends on your system's internal time. To force it to update, click on the moon icon and then click on the text showing the moon's phase.
 </br>
 
 ### Editing Code
